@@ -22,18 +22,18 @@ jobs:
               subarch: "mt76x8",
               pkg_arch: "mipsel_24kc",
             }
-          - {
-              version: "22.03.5",
-              arch: "ramips",
-              subarch: "mt7621",
-              pkg_arch: "mipsel_24kc",
-            }
-          - {
-              version: "23.05.3",
-              arch: "ramips",
-              subarch: "mt76x8",
-              pkg_arch: "mipsel_24kc",
-            }
+          # - {
+          #     version: "22.03.5",
+          #     arch: "ramips",
+          #     subarch: "mt7621",
+          #     pkg_arch: "mipsel_24kc",
+          #   }
+          # - {
+          #     version: "23.05.3",
+          #     arch: "ramips",
+          #     subarch: "mt76x8",
+          #     pkg_arch: "mipsel_24kc",
+          #   }
           # Add more targets:
           # - { version: "22.03.5", arch: "ath79", subarch: "generic", pkg_arch: "mips_24kc" }
           # - { version: "22.03.5", arch: "mediatek", subarch: "mt7622", pkg_arch: "aarch64_cortex-a53" }
