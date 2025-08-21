@@ -1,6 +1,6 @@
 # OpenWrt UDPBD Server
 
-[![Build and Release](https://github.com/yumanuralfath/udpbd_server_openwrt/actions/workflows/release.yml/badge.svg)](https://github.com/yourusername/udpbd-server-openwrt/actions)
+[![Build and Release](https://github.com/yumanuralfath/udpbd_server_openwrt/actions/workflows/release.yml/badge.svg)](https://github.com/yumanuralfath/udpbd_server_openwrt/actions)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ### TEST
