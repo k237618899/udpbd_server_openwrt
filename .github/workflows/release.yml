@@ -20,16 +20,18 @@ jobs:
               subarch: "mt76x8",
               pkg_arch: "mipsel_24kc",
             }
-          - {
-              version: "22.03.5",
-              arch: "ramips",
-              subarch: "mt7621",
-              pkg_arch: "mipsel_24kc",
-            }
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Setup Python 2.x
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python2
+          # Create symlink so 'python' command works
+          sudo ln -sf /usr/bin/python2 /usr/bin/python
+          python --version
 
       - name: Download and setup OpenWrt SDK
         run: |
