@@ -3,6 +3,45 @@
 [![Build and Release](https://github.com/yumanuralfath/udpbd_server_openwrt/actions/workflows/release.yml/badge.svg)](https://github.com/yourusername/udpbd-server-openwrt/actions)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+### TEST
+
+- <https://youtube.com/shorts/kkT27Dp-3qU?feature=share>
+
+<!--toc:start-->
+
+- [OpenWrt UDPBD Server](#openwrt-udpbd-server) - [TEST](#test)
+  - [⭐ Credits & Stars](#credits-stars)
+  - [🎮 PlayStation 2 Compatibility](#🎮-playstation-2-compatibility)
+    - [Compatible OPL Version](#compatible-opl-version)
+  - [🚀 Quick Start](#🚀-quick-start)
+    - [Option 1: Download Pre-built IPK (Recommended)](#option-1-download-pre-built-ipk-recommended)
+    - [Option 2: Fork & Build with GitHub Actions](#option-2-fork-build-with-github-actions)
+    - [Option 3: Manual Compilation](#option-3-manual-compilation)
+      - [Prerequisites](#prerequisites)
+      - [Build Steps](#build-steps)
+  - [🔧 Configuration](#🔧-configuration)
+    - [Service Configuration](#service-configuration)
+    - [Service Management](#service-management)
+  - [🎮 PS2 Setup Guide](#🎮-ps2-setup-guide)
+    - [1. Hardware Requirements](#1-hardware-requirements)
+    - [2. Install UDPBD-enabled OPL](#2-install-udpbd-enabled-opl)
+    - [3. Network Configuration](#3-network-configuration)
+    - [4. Storage Options](#4-storage-options)
+      - [USB Drive](#usb-drive)
+      - [Individual ISO](#individual-iso)
+      - [Image File](#image-file)
+  - [🌐 Supported OpenWrt Targets](#🌐-supported-openwrt-targets)
+    - [Add Your Target](#add-your-target)
+  - [🔍 Troubleshooting](#🔍-troubleshooting)
+    - [Check Server Status](#check-server-status)
+    - [Test Connectivity](#test-connectivity)
+    - [Common Issues](#common-issues)
+  - [📋 Technical Details](#📋-technical-details)
+  - [🤝 Contributing](#🤝-contributing)
+  - [📄 License](#📄-license)
+  - [🙏 Acknowledgments](#🙏-acknowledgments)
+  <!--toc:end-->
+
 UDP Block Device (UDPBD) server for OpenWrt routers, providing high-performance network block device access for PlayStation 2 and other compatible clients.
 
 ## ⭐ Credits & Stars
