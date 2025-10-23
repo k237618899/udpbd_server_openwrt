@@ -20,6 +20,12 @@ jobs:
               subarch: "mt76x8",
               pkg_arch: "mipsel_24kc",
             }
+          - {
+              version: "24.10.3",
+              arch: "rockchip",
+              subarch: "armv8",
+              pkg_arch: "aarch64_generic",
+            }
 
     steps:
       - name: Checkout repository
